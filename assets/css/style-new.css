@@ -2058,7 +2058,7 @@ main.touch .main-wrap {
 }
 
 .single-about-image .overlay:nth-child(1) {
-    background: url("../img/profile-pic.") center center no-repeat;
+    background: url("../img/profilepic.png") center center no-repeat;
     background-size: cover;
     top: -20vh;
     height: 105%;
