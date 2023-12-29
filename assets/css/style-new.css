@@ -1099,7 +1099,7 @@ main.touch .main-wrap {
 
 .small-work-grid .work-items li {
     max-height: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .small-work-grid .work-items li.visible {
@@ -1112,8 +1112,14 @@ main.touch .main-wrap {
 
 @media screen and (max-width: 1024px) {
     .small-work-grid {
-        display: none;
+        /* display: none; */
     }
+
+    .small-work-grid .work-items li{
+        /* padding: 12px; */
+        margin: 10px 0px;
+    }
+
 }
 
 /* ------------------------- Work Grid - Tiny -------------------------------------------------- */
@@ -2058,7 +2064,7 @@ main.touch .main-wrap {
 }
 
 .single-about-image .overlay:nth-child(1) {
-    background: url("../img/profilepic.png") center center no-repeat;
+    background: url("../img/IMG_20231222_140845874_AE-bg.png") center center no-repeat;
     background-size: cover;
     top: -20vh;
     height: 105%;
@@ -3525,3 +3531,16 @@ main.touch .case-intro-image .btn-wrap {
 .block-button .row .flex-col:last-child {
     margin-right: 0;
 }
+
+
+.w-100{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padding-1{
+    padding: 1rem;
+}
+
